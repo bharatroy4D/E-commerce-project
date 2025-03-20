@@ -7,11 +7,33 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Route from './Route/Route.jsx';
+import Products from './Components/Products/Products.jsx';
+import BecomeSeller from './Components/BecomeSeller/BecomeSeller.jsx';
+import HelpSupport from './Components/HelpSupport/HelpSupport.jsx';
+import SignUp from './Components/SignUp/SignUp.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Route></Route>
+    element: <Route></Route>,
+    children:[
+      {
+        path:'/',
+        element:<Products/>
+      },
+      {
+        path:'/become',
+        element:<BecomeSeller/>
+      },
+      {
+        path:'/help',
+        element:<HelpSupport/>,
+      },
+      {
+        path:'/sign',
+        element:<SignUp/>,
+      },
+    ]
   },
 ]);
 
