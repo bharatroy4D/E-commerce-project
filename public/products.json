@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "title": "Casual Shirt",
+      "image": "https://cdn.shopify.com/s/files/1/0874/8928/2359/files/ciseco_p_-24_ec9df7d2-f47c-4255-99ab-6c53aca02e05.png?v=1714213173&width=800&crop=center",
+      "description": "Comfortable cotton casual shirt for men.",
+      "price": 29.99,
+      "category": "Shirt",
+      "product_category": "Popular Product"
+    },
+    {
+      "id": 2,
+      "title": "Women's Summer T-Shirt",
+      "image": "https://files.cdn.printful.com/o/upload/bfl-image/f5/10333_l_collage%20vintage%20design%20.jpg",
+      "description": "Lightweight and stylish t-shirt for women.",
+      "price": 19.99,
+      "category": "T-Shirt",
+      "product_category": "New Arrival"
+    },
+    {
+      "id": 3,
+      "title": "Men's Denim Jeans",
+      "image": "https://vader-prod.s3.amazonaws.com/1722612312-mhl-052224-jeans-amazon1489-66acfa3cbbbe8.jpg",
+      "description": "Classic fit denim jeans for men.",
+      "price": 39.99,
+      "category": "Pant",
+      "product_category": "Offered Product"
+    },
+    {
+      "id": 4,
+      "title": "Formal Pant",
+      "image": "https://cdn.shopify.com/s/files/1/0874/8928/2359/files/ciseco_p_-37_4d9035e7-ffaa-4619-b61c-9d40d2223f51.png?v=1714208739&width=800&crop=center",
+      "description": "Elegant formal pant for women.",
+      "price": 34.99,
+      "category": "Pant",
+      "product_category": "Popular Product"
+    },
+    {
+      "id": 5,
+      "title": "Men's Leather Jacket",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ5u67UgV44vhZFcx0qN7hWz4L_TjM_BVf_STxJSPKyAuVDOtwUIZGNKixnogvVFptvN4&usqp=CAU",
+      "description": "Premium leather jacket for winter fashion.",
+      "price": 89.99,
+      "category": "Male",
+      "product_category": "New Arrival"
+    },
+    {
+      "id": 6,
+      "title": "Women's Hooded Sweatshirt",
+      "image": "https://assets.burberry.com/is/image/Burberryltd/AE1F528D-3D74-4E07-BA79-D4CF9351DED0?$BBY_V3_SL_1.275$&wid=581&hei=739",
+      "description": "Warm and stylish hoodie for casual wear.",
+      "price": 49.99,
+      "category": "Female",
+      "product_category": "Offered Product"
+    },
+    {
+      "id": 7,
+      "title": "Formal Shirt",
+      "image": "https://cdn.shopify.com/s/files/1/0874/8928/2359/files/ciseco_p_-2_56f64253-fb14-4727-97c0-6873a04b72d0.png?v=1714208742&width=800&crop=center",
+      "description": "Slim-fit cotton formal shirt for office wear.",
+      "price": 24.99,
+      "category": "Shirt",
+      "product_category": "Popular Product"
+    },
+    {
+      "id": 8,
+      "title": "Women's Casual T-Shirt",
+      "image": "https://levin.com.bd/cdn/shop/files/web-2_6d9da0ed-cae5-4687-a0ff-081499dc9f7a.jpg?v=1692617820&width=1200",
+      "description": "Soft cotton casual t-shirt for everyday wear.",
+      "price": 22.99,
+      "category": "T-Shirt",
+      "product_category": "New Arrival"
+    },
+    {
+      "id": 9,
+      "title": "Men's Slim-Fit Chinos",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKYxIe9x9npGoba0nLoFC42TmCXJ3M88IasxnQkYVIiBDu8ZfHPAmd2mskKMdqM4vIbU8&usqp=CAU",
+      "description": "Comfortable and stylish slim-fit chinos for men.",
+      "price": 44.99,
+      "category": "Pant",
+      "product_category": "Offered Product"
+    },
+    {
+      "id": 10,
+      "title": "Skinny Jeans",
+      "image": "https://cdn.shopify.com/s/files/1/0874/8928/2359/files/ciseco_p_-7_ac1953d6-ce38-4e22-b6ca-d5fdedebb7cf.png?v=1714208739&width=800&crop=center",
+      "description": "Trendy skinny jeans for women with stretchable fabric.",
+      "price": 54.99,
+      "category": "Pant",
+      "product_category": "Popular Product"
+    },
+    {
+      "id": 11,
+      "title": "Men's Running Shoes",
+      "image": "https://www.orionfootwearltd.com/images/media/2023/10/G7W7W18803.jpg",
+      "description": "Comfortable running shoes for men with breathable fabric.",
+      "price": 69.99,
+      "category": "Footwear",
+      "product_category": "New Arrival"
+    },
+    {
+      "id": 12,
+      "title": "Women's Leather Handbag",
+      "image": "https://cdn.shopify.com/s/files/1/0874/8928/2359/files/ciseco_p_-8_c91d096f-3307-4310-9000-8004b9f90d8f.png?v=1714213217&width=800&crop=center",
+      "description": "Elegant leather handbag for women, perfect for office and casual use.",
+      "price": 79.99,
+      "category": "Accessories",
+      "product_category": "Offered Product"
+    },
+    {
+      "id": 13,
+      "title": "Men's Sweatpants",
+      "image": "https://i5.walmartimages.com/seo/Sweatpants-for-Men-Winter-Fleece-Pants-Sherpa-Lined-Sweatpants-Active-Running-Jogger-Pants-Active-Athletic-Workout-Sweatpants_0c68ecb7-5688-4cc1-bc05-71e33b9c0dff.8a17e9de68b10a59fdffcf0e1433164d.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "description": "Soft and comfortable sweatpants for men for everyday wear.",
+      "price": 39.99,
+      "category": "Pant",
+      "product_category": "Offered Product"
+    },
+    {
+      "id": 14,
+      "title": "Women's Ankle Boots",
+      "image": "https://kr.diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw7418be4a/images/large/Y03323_PRR13_T8013_F.jpg",
+      "description": "Trendy ankle boots for women with a comfortable heel.",
+      "price": 59.99,
+      "category": "Footwear",
+      "product_category": "New Arrival"
+    },
+    {
+      "id": 15,
+      "title": "Men's Winter Gloves",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxXPLpzDqmYFd6hywpHeD0Zsw9qzFQaXJkCg&s",
+      "description": "Warm winter gloves for men made with soft wool fabric.",
+      "price": 19.99,
+      "category": "Accessories",
+      "product_category": "Offered Product"
+    },
+    {
+      "id": 16,
+      "title": "Women's Yoga Pants",
+      "image": "https://cdn.shopify.com/s/files/1/0874/8928/2359/files/ciseco_p_-1_20c09c88-df08-409e-b02d-2b872630516e.png?v=1714208730&width=800&crop=center",
+      "description": "Stretchable and comfortable yoga pants for women.",
+      "price": 29.99,
+      "category": "Pant",
+      "product_category": "Offered Product"
+    }
+  ]
+  

@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "name": "Male"
+    },
+    {
+      "id": 2,
+      "name": "Female"
+    },
+    {
+      "id": 3,
+      "name": "Shirt"
+    },
+    {
+      "id": 4,
+      "name": "Pant"
+    },
+    {
+      "id": 5,
+      "name": "T-Shirt"
+    }
+  ]
