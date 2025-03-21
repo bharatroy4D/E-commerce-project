@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Category from '../Category/Category';
 import { BiSolidCategory } from 'react-icons/bi';
 
-const Categories = () => {
+const Categories = ({ handleFilterItem }) => {
     const [categories, setCategories] = useState([])
 
     useEffect(() => {
@@ -12,11 +12,15 @@ const Categories = () => {
     }, [])
     return (
         <div className=' w-1/4 rounded pl-5 bg-base-300 shadow-xl'>
-            <h1 className='flex gap-2 items-center text-2xl font-bold pt-2 pb-4'><BiSolidCategory className='text-green-400'/>
-            Categories </h1>
+            <h1 className='flex gap-2 items-center text-2xl font-bold pt-2 pb-4'><BiSolidCategory className='text-green-400' />
+                Categories </h1>
             <div>
                 {
-                    categories.map(category => <Category key={category.id} category={category}></Category>)
+                    categories.map(category => <Category
+                        key={category.id}
+                        category={category}
+                        handleFilterItem={handleFilterItem}
+                    ></Category>)
                 }
             </div>
 

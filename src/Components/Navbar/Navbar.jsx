@@ -16,7 +16,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="bg-blue-900  pt-2 pb-3 px-10 shadow-2xl fixed top-0 left-0 z-[99999] w-full">
+        <div className="bg-blue-800  pt-2 pb-3 px-10 shadow-2xl fixed top-0 left-0 z-[99999] w-full">
             <nav>
                 <ul className="list-none flex gap-7 justify-end text-sm text-white">
                     <li>

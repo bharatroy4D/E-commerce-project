@@ -1,20 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import ViewProduct from '../ViewProduct/ViewProduct';
 
-const ViewProducts = () => {
+const ViewProducts = ({ filterItem }) => {
     const [viewProducts, setViewProducts] = useState([]);
-
+    // console.log(viewProducts);
     useEffect(() => {
         fetch('products.json')
             .then(res => res.json())
             .then(data => setViewProducts(data))
     }, [])
+    const viewProductFilter = filterItem ? viewProducts.filter(product => product.category === filterItem) : viewProducts
 
     return (
         <div className='w-full rounded'>
             <div className='grid grid-cols-4 gap-3'>
                 {
-                    viewProducts.map(viewProduct => <ViewProduct viewProduct={viewProduct}></ViewProduct>)
+                    viewProductFilter.map(viewProduct => <ViewProduct viewProduct={viewProduct}></ViewProduct>)
                 }
             </div>
         </div>
