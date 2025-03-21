@@ -8,7 +8,7 @@ const Popular = ({ popular }) => {
     console.log(popular)
     return (
         <div className='bg-white'>
-            <div className="bg-base-100 shadow-2xl rounded-2xl w-full">
+            <div className="bg-base-100 shadow-xl rounded-xl w-full">
                 <figure>
                     <img className='h-80'
                         src={image}
@@ -25,7 +25,7 @@ const Popular = ({ popular }) => {
                         </div>
                     </div>
                     <h2 className="card-title">
-                        <div className='flex justify-between py-2 w-full'>
+                        <div className='flex justify-between pb-2 w-full'>
                             <h1>{title}</h1>
                             <div className='flex text-red-500 gap-1 items-center'>
                                 <BsCurrencyDollar />
