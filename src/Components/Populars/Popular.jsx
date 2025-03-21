@@ -10,7 +10,7 @@ const Popular = ({ popular }) => {
         <div className='bg-white'>
             <div className="bg-base-100 shadow-xl rounded-xl w-full">
                 <figure>
-                    <img className='h-80'
+                    <img className='h-80 p-5 rounded'
                         src={image}
                         alt="Shoes" />
                 </figure>
