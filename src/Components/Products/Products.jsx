@@ -13,7 +13,7 @@ const Products = () => {
         <div>
             <Hero></Hero>
             <Populars />
-            <div className='flex gap-6 px-10 my-10'>
+            <div className='flex gap-6 px-10 my-14'>
                 <Categories />
                 <ViewProducts />
             </div>

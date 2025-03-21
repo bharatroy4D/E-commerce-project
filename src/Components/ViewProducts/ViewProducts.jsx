@@ -11,7 +11,7 @@ const ViewProducts = () => {
     }, [])
 
     return (
-        <div className='border w-full rounded'>
+        <div className='w-full rounded'>
             <div className='grid grid-cols-4 gap-3'>
                 {
                     viewProducts.map(viewProduct => <ViewProduct viewProduct={viewProduct}></ViewProduct>)

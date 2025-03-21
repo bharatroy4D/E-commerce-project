@@ -10,7 +10,7 @@ const ViewProduct = ({ viewProduct }) => {
             <div className='bg-white'>
                 <div className="bg-base-100 shadow-xl rounded-xl w-full h-72">
                     <figure className='h-40 mx-auto pt-2 rounded'>
-                        <img className='h-40 mx-auto'
+                        <img className='h-40 w-40 mx-auto rounded'
                             src={image}
                             alt="Shoes" />
                     </figure>
