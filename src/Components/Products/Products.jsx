@@ -17,7 +17,7 @@ const Products = () => {
         <div>
             <Hero></Hero>
             <Populars />
-            <div className='flex gap-6 px-10 my-14'>
+            <div className='lg:flex  gap-6 px-10 my-14'>
                 <Categories handleFilterItem={handleFilterItem} />
                 <ViewProducts filterItem={filterItem} />
             </div>

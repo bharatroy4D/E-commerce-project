@@ -98,7 +98,7 @@ const Navbar = () => {
             )}
 
             {/* Search & Cart Section */}
-            <div className="mt-3 flex justify-between items-center w-full lg:w-[70%]">
+            <div className="mt-3 flex justify-between items-center w-full lg:w-[70%] ">
                 <div className="hidden lg:flex gap-2 items-center">
                     <GiConcentrationOrb className="text-green-400 text-3xl" />
                     <h1 className="text-3xl text-white font-bold">T-Shop</h1>
