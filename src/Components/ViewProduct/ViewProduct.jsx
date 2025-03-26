@@ -35,8 +35,11 @@ const ViewProduct = ({ viewProduct }) => {
 
           {/* Buttons */}
           <div className="flex justify-between mt-4">
-            <button className="btn btn-primary text-xs px-3 py-1 sm:text-sm">
-              Add to Cart
+            <button className="btn btn-primary text-xs px-4 sm:text-sm">
+              Buy
+            </button>
+            <button className="btn  text-xs px-4 sm:text-sm">
+              View
             </button>
           
           </div>

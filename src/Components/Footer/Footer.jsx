@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='bg-pink-600'>
+        <div className='bg-pink-800'>
             <footer className="footer sm:footer-horizontal text-base-content p-10 bg-pink-200">
                 <div className="footer flex flex-col sm:flex-row sm:grid sm:grid-cols-4 sm:gap-10 gap-8">
                     {/* Services Section */}

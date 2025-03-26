@@ -108,10 +108,9 @@ const Navbar = () => {
                     <div className="flex items-center relative w-full lg:w-auto">
                         <input
                             type="text"
-                            className="border-none text-black font-medium bg-amber-50 py-2 pl-4 pr-10 w-full lg:w-72 rounded-full outline-0"
-                            placeholder="Search"
-                        />
-                        <FiSearch className="text-2xl absolute right-3 top-1/2 transform -translate-y-1/2" />
+                            className="border-none text-black  bg-amber-50 py-2 pl-4 pr-10 w-full rounded-md lg:w-72  outline-0"
+                            placeholder="Search products"
+                        /> <button className="btn btn-secondary bg-green-600 hover:bg-amber-700 ml-2"> Search</button>
                     </div>
                     <div className="flex gap-4 text-white">
                         <RiAccountCircleLine className="text-2xl cursor-pointer" />
