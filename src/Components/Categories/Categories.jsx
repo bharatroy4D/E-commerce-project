@@ -17,7 +17,7 @@ const Categories = ({ handleFilterItem }) => {
 
     if (loading) {
         return (
-            <div className="w-full md:w-1/4 lg:w-1/5 rounded pl-5 bg-base-300 shadow-xl">
+            <div className="w-full md:w-1/4 lg:w-1/5 rounded pl-5 bg-base-300 shadow">
                 <h1 className="text-2xl font-bold pt-2 pb-4">Loading Categories...</h1>
                 {/* You can use a spinner here */}
                 <div className="flex justify-center mt-4">
