@@ -7,6 +7,7 @@ import Hero from '../Hero/Hero';
 import Populars from '../Populars/Populars';
 import Categories from '../Categories/Categories';
 import ViewProducts from '../ViewProducts/ViewProducts';
+import Facilities from '../Facilities/Facilities';
 
 const Products = () => {
     const [filterItem, setFilterItem] = useState([]);
@@ -21,6 +22,7 @@ const Products = () => {
                 <Categories handleFilterItem={handleFilterItem} />
                 <ViewProducts filterItem={filterItem} />
             </div>
+            <Facilities></Facilities>
         </div>
     );
 };

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import slide1 from '../../assets/slider-1.png';
+import slide1 from '../../assets/slider-1.png'
 import { FaEnvelope, FaLock } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import { SiFacebook } from 'react-icons/si';

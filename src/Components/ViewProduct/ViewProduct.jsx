@@ -7,7 +7,7 @@ const ViewProduct = ({ viewProduct }) => {
   const { title, image, price } = viewProduct;
 
   return (
-    <div className="bg-white shadow-lg rounded-xl w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto">
+    <div className="bg-white shadowrounded-xl w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto">
       <div className="bg-base-100 rounded-xl p-4">
         <figure className="flex justify-center">
           <img
