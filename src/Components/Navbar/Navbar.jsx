@@ -87,8 +87,8 @@ const Navbar = () => {
             {isMobileMenuOpen && (
                 <ul className="lg:hidden flex flex-col items-start bg-blue-900 p-4 rounded mt-2 text-white">
                     <li className="py-2"><Link to="/">Products</Link></li>
-                    <li className="py-2"><Link to="/become">Become a Seller</Link></li>
-                    <li className="py-2"><Link to="/help">Help & Support</Link></li>
+                    <li className="py-2"><Link to="">Become a Seller</Link></li>
+                    <li className="py-2"><Link to="">Help & Support</Link></li>
                     <li className="py-2 flex items-center gap-2">
                         <TfiWorld className="text-green-400" />
                         <span>Language</span>

@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
 import slide1 from '../../assets/slider-1.png'
 import { FaEnvelope, FaLock } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import { SiFacebook } from 'react-icons/si';
+import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import auth from '../firebase.config';
 
 const SignUp = () => {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
+    const googleProvider = new GoogleAuthProvider();
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Email:', email, 'Password:', password);
-    };
+    const handleGoogleSignIn = () => {
+        signInWithPopup(auth, googleProvider)
+    }
+
 
     return (
         <div className="hero bg-base-200 min-h-screen flex items-center py-10 lg:py-20">
@@ -25,18 +25,18 @@ const SignUp = () => {
                 <div className="card bg-base-100 w-full max-w-sm  shadow-xl  rounded-lg ">
                     <div className="card-body">
                         <h2 className="text-3xl font-semibold text-center mb-4 text-blue-600">Sign Up</h2>
-                        <form className="space-y-6" onSubmit={handleSubmit}>
+
+                        <form className="space-y-6" onSubmit={handleGoogleSignIn}>
                             {/* Email Field with Icon */}
                             <div className="flex items-center space-x-4">
                                 <FaEnvelope className="text-xl text-gray-500" />
                                 <div className="w-full">
                                     <label className="block text-lg font-medium text-gray-700">Email</label>
                                     <input
-                                        type="email"
+                                        type="email" name='email'
                                         className="input input-bordered w-full p-3 mt-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                                         placeholder="Email"
-                                        value={email}
-                                        onChange={(e) => setEmail(e.target.value)}
+
                                     />
                                 </div>
                             </div>
@@ -47,18 +47,11 @@ const SignUp = () => {
                                 <div className="w-full">
                                     <label className="block text-lg font-medium text-gray-700">Password</label>
                                     <input
-                                        type="password"
+                                        type="password" name='password'
                                         className="input input-bordered w-full p-3 mt-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                                         placeholder="Password"
-                                        value={password}
-                                        onChange={(e) => setPassword(e.target.value)}
                                     />
                                 </div>
-                            </div>
-
-                            {/* Forgot Password Link */}
-                            <div className="text-right">
-                                <a href="#" className="text-sm text-blue-600 hover:underline">Forgot password?</a>
                             </div>
 
                             {/* Submit Button */}
@@ -71,8 +64,8 @@ const SignUp = () => {
                                 </button>
                                 <h1 className='text-center text-lg font-semibold'>or</h1>
                                 <div className='flex gap-4 items-center justify-center'>
-                                <FcGoogle className='text-3xl' />
-                                <SiFacebook className='text-2xl' />
+                                    <FcGoogle className='text-3xl' />
+                                    <SiFacebook className='text-2xl' />
 
 
                                 </div>
