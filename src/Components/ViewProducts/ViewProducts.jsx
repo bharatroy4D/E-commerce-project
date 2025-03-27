@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ViewProduct from '../ViewProduct/ViewProduct';
+import { Pagination } from 'antd';
+
 
 const ViewProducts = ({ filterItem }) => {
     const [viewProducts, setViewProducts] = useState([]);
@@ -21,6 +23,9 @@ const ViewProducts = ({ filterItem }) => {
                         <ViewProduct key={viewProduct.id} viewProduct={viewProduct} />
                     ))
                 }
+            </div>
+            <div className='flex justify-center pt-12'>
+                <Pagination className='text-2xl font-bold' defaultCurrent={1} total={50} />
             </div>
         </div>
     );
