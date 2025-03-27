@@ -65,7 +65,7 @@ const Navbar = () => {
 
                     <li>
                         <Link to="/sign" className="hover:text-green-400">
-                            Sign Up
+                            Sign In
                         </Link>
                     </li>
                 </ul>
@@ -93,7 +93,7 @@ const Navbar = () => {
                         <TfiWorld className="text-green-400" />
                         <span>Language</span>
                     </li>
-                    <li className="py-2"><Link to="/sign">Sign Up</Link></li>
+                    <li className="py-2"><Link to="/sign">Sign In</Link></li>
                 </ul>
             )}
 

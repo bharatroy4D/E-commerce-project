@@ -2,14 +2,36 @@ import slide1 from '../../assets/slider-1.png'
 import { FaEnvelope, FaLock } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import { SiFacebook } from 'react-icons/si';
-import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import { createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import auth from '../firebase.config';
 
 const SignUp = () => {
     const googleProvider = new GoogleAuthProvider();
-
+    //  google by sing in
     const handleGoogleSignIn = () => {
         signInWithPopup(auth, googleProvider)
+            .then(result => {
+                console.log(result)
+            })
+            .catch(error => {
+                console.log(error)
+            })
+    }
+    // Manually Email and password by sign Up
+    const handleManuallyUserCreate = e => {
+        e.preventDefault()
+        const form = e.target;
+        const email = form.email.value;
+        const password = form.password.value;
+        console.log(email, password)
+
+        createUserWithEmailAndPassword(auth, email, password)
+            .then(result => {
+                console.log(result)
+            })
+            .catch(error => {
+                console.log(error)
+            })
     }
 
 
@@ -24,9 +46,9 @@ const SignUp = () => {
                 {/* Card with Form */}
                 <div className="card bg-base-100 w-full max-w-sm  shadow-xl  rounded-lg ">
                     <div className="card-body">
-                        <h2 className="text-3xl font-semibold text-center mb-4 text-blue-600">Sign Up</h2>
+                        <h2 className="text-3xl font-semibold text-center mb-4 text-blue-600">Sign In</h2>
 
-                        <form className="space-y-6" onSubmit={handleGoogleSignIn}>
+                        <form className="space-y-6" onSubmit={handleManuallyUserCreate}>
                             {/* Email Field with Icon */}
                             <div className="flex items-center space-x-4">
                                 <FaEnvelope className="text-xl text-gray-500" />
@@ -60,11 +82,11 @@ const SignUp = () => {
                                     type="submit"
                                     className="btn btn-neutral w-full py-2 mt-6 rounded-lg text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 >
-                                    Sign Up
+                                    Sign In
                                 </button>
                                 <h1 className='text-center text-lg font-semibold'>or</h1>
                                 <div className='flex gap-4 items-center justify-center'>
-                                    <FcGoogle className='text-3xl' />
+                                    <FcGoogle onClick={handleGoogleSignIn} className='text-3xl' />
                                     <SiFacebook className='text-2xl' />
 
 
