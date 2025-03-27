@@ -133,15 +133,7 @@
       "price": 19.99,
       "category": "T-Shirt",
       "product_category": "Offered Product"
-    },
-    {
-      "id": 16,
-      "title": "Pants",
-      "image": "https://cdn.shopify.com/s/files/1/0874/8928/2359/files/ciseco_p_-1_20c09c88-df08-409e-b02d-2b872630516e.png?v=1714208730&width=800&crop=center",
-      "description": "Stretchable and comfortable yoga pants for women.",
-      "price": 29.99,
-      "category": "Pant",
-      "product_category": "Offered Product"
     }
+  
   ]
   
