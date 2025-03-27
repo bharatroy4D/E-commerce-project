@@ -7,7 +7,7 @@ import Slider4 from '../../assets/slider-4.png'
 const Hero = () => {
     return (
         <div>
-            <div className="carousel  h-screen mx-10 ">
+            <div className="carousel  h-screen  ">
                 <div id="slide2" className="carousel-item relative w-full">
                     <img
                         src={Slider2}
