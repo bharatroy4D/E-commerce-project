@@ -6,7 +6,7 @@ const Popular = ({ popular }) => {
     const { title, image, price } = popular;
 
     return (
-        <div className="bg-white w-full max-w-[350px] mx-auto rounded-xl shadow-md overflow-hidden">
+        <div className="bg-white w-full max-w-[350px] mx-auto rounded-xl shadow-md overflow-hidden hover:border hover:border-green-600">
             {/* Product Image */}
             <figure className="w-full h-[200px] sm:h-[250px] md:h-[280px]">
                 <img

@@ -2,11 +2,11 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='bg-pink-800'>
-            <footer className="footer sm:footer-horizontal text-base-content p-10 bg-pink-200">
-                <div className="footer flex flex-col sm:flex-row sm:grid sm:grid-cols-4 sm:gap-10 gap-8">
+        <div className="bg-pink-800 ">
+            <footer className="text-base-content p-10 bg-pink-200">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                     {/* Services Section */}
-                    <nav>
+                    <nav className="flex flex-col">
                         <h6 className="footer-title font-bold">Services</h6>
                         <a className="link link-hover">Branding</a>
                         <a className="link link-hover">Design</a>
@@ -15,7 +15,7 @@ const Footer = () => {
                     </nav>
 
                     {/* Company Section */}
-                    <nav>
+                    <nav className="flex flex-col">
                         <h6 className="footer-title font-bold">Company</h6>
                         <a className="link link-hover">About us</a>
                         <a className="link link-hover">Contact</a>
@@ -24,7 +24,7 @@ const Footer = () => {
                     </nav>
 
                     {/* Legal Section */}
-                    <nav>
+                    <nav className="flex flex-col">
                         <h6 className="footer-title font-bold">Legal</h6>
                         <a className="link link-hover">Terms of use</a>
                         <a className="link link-hover">Privacy policy</a>
@@ -32,15 +32,16 @@ const Footer = () => {
                     </nav>
 
                     {/* Newsletter Section */}
-                    <form>
+                    <form className="flex flex-col">
                         <h6 className="footer-title font-bold">Newsletter</h6>
-                        <fieldset className="w-80">
-                            <label>Enter your email address</label>
+                        <fieldset className="max-w-sm">
+                            <label htmlFor="email">Enter your email address</label>
                             <div className="join">
                                 <input
-                                    type="text"
+                                    id="email"
+                                    type="email"
                                     placeholder="username@site.com"
-                                    className="input input-bordered join-item"
+                                    className="input input-bordered join-item w-full"
                                 />
                                 <button className="btn btn-primary join-item">Subscribe</button>
                             </div>

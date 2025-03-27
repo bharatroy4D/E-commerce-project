@@ -22,7 +22,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="bg-blue-800 pt-2 pb-3 px-6 md:px-10 shadow-2xl fixed top-0 left-0 z-[99999] w-full">
+        <div className="bg-blue-800 pt-2 pb-3 px-6  md:px-10 opacity-90 fixed top-0 left-0 z-[99999] w-full">
             {/* Desktop Navbar */}
             <nav className="hidden lg:flex justify-end gap-7 text-sm text-white">
                 <ul className="flex gap-7">
@@ -33,12 +33,12 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/become" className="hover:text-green-400">
+                        <Link to="" className="hover:text-green-400">
                             Become a Seller
                         </Link>
                     </li>
                     <li>
-                        <Link to="/help" className="flex items-center gap-1 hover:text-green-400">
+                        <Link to="" className="flex items-center gap-1 hover:text-green-400">
                             <IoCallOutline className="text-green-400 " />
                             Help & Support
                         </Link>

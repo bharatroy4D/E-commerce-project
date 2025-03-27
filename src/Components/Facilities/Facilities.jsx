@@ -7,7 +7,7 @@ import helpSupport from '../../assets/help-support-removebg-preview.png'
 
 const Facilities = () => {
     return (
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-10 my-15 '>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6  my-15 border-t-2 border-green-600 border-dotted pt-10 mx-10 '>
             {/* facilities-1 */}
             <div className='flex flex-col items-center justify-center bg-base-300 shadow hover:bg-green-500 hover:text-white rounded p-5'>
                 <img className='w-32' src={delivery} alt="" />
